@@ -53,3 +53,23 @@ nav a.selected {
 }
 
 /* Your code here */
+@media print {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 639px) {
+    header.homepage {
+        height: 50%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
