@@ -1,1 +1,46 @@
-/* Your code here */
+.masthead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "menu . action"
+        ". tech ."
+        "date logo paper";
+}
+
+.masthead__menu-and-search {
+    grid-area: menu;
+}
+
+.masthead__actions {
+    grid-area: action;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 7px 9px 7px 20px;
+}
+
+.masthead__technologies {
+    grid-area: tech;
+}
+
+.masthead__date {
+    grid-area: date;
+}
+
+.masthead__logo {
+    grid-area: logo;
+}
+
+.masthead__paper {
+    grid-area: paper;
+}
+
+.masthead__button-icon {
+    font-size: 11px;
+    padding: 7px 9px 7px 20px;
+    display: inline-block;
+}
+
+.masthead__button-icon:hover {
+    background-color: #f7f7f5;
+}
