@@ -9,6 +9,9 @@
 
 .masthead__menu-and-search {
     grid-area: menu;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .masthead__actions {
@@ -21,26 +24,46 @@
 
 .masthead__technologies {
     grid-area: tech;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .masthead__date {
     grid-area: date;
+    height: 11px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
 }
 
 .masthead__logo {
     grid-area: logo;
+    text-align: center;
+    padding: 10px;
 }
 
 .masthead__paper {
     grid-area: paper;
+    height: 11px;
+    display: flex;
 }
 
 .masthead__button-icon {
     font-size: 11px;
     padding: 7px 9px 7px 20px;
-    display: inline-block;
 }
 
 .masthead__button-icon:hover {
     background-color: #f7f7f5;
 }
+
+.technology-button {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6f6f6f;
+    margin: 2px;
+}
+
+
