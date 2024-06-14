@@ -24,6 +24,12 @@
 
 .masthead__technologies {
     grid-area: tech;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    background-color: white;
+    position: relative;
+    top: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +37,10 @@
 
 .masthead__date {
     grid-area: date;
-    height: 11px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    padding-bottom: 11px;
+    font-size: 11px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -40,14 +49,21 @@
 
 .masthead__logo {
     grid-area: logo;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
     text-align: center;
     padding: 10px;
 }
 
 .masthead__paper {
     grid-area: paper;
-    height: 11px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    padding-bottom: 11px;
+    font-size: 11px;
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .masthead__button-icon {
@@ -65,5 +81,3 @@
     color: #6f6f6f;
     margin: 2px;
 }
-
-
